@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans:wght@200;400&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./Image/logo.jpg" height="80px" width="80px"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Gallery</h1>
+
+    </section>
+
+     <!-------Types Of Photography------->
+     <section class="TP">
+        <h1>Shoot We Offer</h1>
+        <p>We are offer Various Shoot</p>
+
+        <div class="row">
+            <div class="TP-col">
+                <h3>Model Shoot</h3>
+                <img src="./Image/g-1.jpg" height="200px" width="200px">
+                <p>You can get the best model photoshoot in Jaipur from Amazing_Photography. If you’re seeking for
+                    someone to conduct model photoshoot in Jaipur.</p>
+            </div>
+            <div class="TP-col">
+                <h3>Landscape Shoot</h3>
+                <img src="./Image/file5.jpg" height="200px" width="200px">
+                <p>Landscape photography is the art of capturing pictures of nature and the outdoors in a way that
+                    brings your viewer into the scene. From grand landscapes to intimate details, the best photos
+                    demonstrate the photographer’s own connection to nature and capture the essence of the world around
+                    them.</p>
+            </div>
+            <div class="TP-col">
+                <h3>Wild Shoot</h3>
+                <img src="./Image/file9.jpg" height="200px" width="200px">
+                <p>Taking pictures of animals in the outdoors can be an exciting way to experience nature, but it can
+                    also be challenging to get really great shots. To capture beautiful images of animals.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!------Gallery----->
+
+    <section class="gallery">
+        <h3>Landscape-Photo</h3>
+
+        <div class="row">
+
+            <div class="gallery-col">
+                <img src="./Image/file6.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/file13.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/file3.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/file2.JPG" height="200px" width="200px">
+            </div>
+
+        </div>
+        </div>
+
+        <h3>Model-Photo</h3>
+        <div class="row">
+
+            <div class="gallery-col">
+                <img src="./Image/g-1.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/file13.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/baby.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/file0.jpg" height="200px" width="200px">
+            </div>
+
+        </div>
+        </div>
+
+        <h3>Wild-Photo</h3>
+        <div class="row">
+
+            <div class="gallery-col">
+                <img src="./Image/file9.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/file12.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/file8.jpg" height="200px" width="200px">
+            </div>
+            <div class="gallery-col">
+                <img src="./Image/file11.jpg" height="200px" width="200px">
+            </div>
+
+        </div>
+        </div>
+
+
+        <!-----FOOTER----->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, cupiditate maxime aut consequuntur
+                culpabr
+                <br> provident id adipisci voluptas nam esse?
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+                <p>made with <i class="fa fa-heart-o"></i> by Amazing_Photography </p>
+            </div>
+        </section>
+
+   
+
+    <!-----FOOTER----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, cupiditate maxime aut consequuntur culpabr
+            <br> provident id adipisci voluptas nam esse?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <p>made with <i class="fa fa-heart-o"></i> by Amazing_Photography </p>
+        </div>
+    </section>
+
+    <!------- Javascript for Toggle Menu ------>
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

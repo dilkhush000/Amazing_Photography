@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans:wght@200;400&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./Image/logo.jpg" height="80px" width="80px"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!------about us content----->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are best photographer</h1>
+                <p>If you love photography, narrowing down a list of famous photographers you should know and appreciate
+                    is a dense enough task when you aren’t looking to narrow that list down even further to a fixed
+                    number. Somehow, we managed and, based on criteria and objectiveness, then contact
+                    "Amazing_Photography" who are known for their passion, dedication, and style.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./Image/about-group.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-----FOOTER----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, cupiditate maxime aut consequuntur culpabr
+            <br> provident id adipisci voluptas nam esse?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <p>made with <i class="fa fa-heart-o"></i> by Amazing_Photography </p>
+        </div>
+    </section>
+
+    <!------- Javascript for Toggle Menu ------>
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
